@@ -1,0 +1,267 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A3F8E2521B62856E0028FFAC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F8E2511B62856E0028FFAC /* main.swift */; };
+		A3F8E2591B62857B0028FFAC /* Airline.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F8E2581B62857B0028FFAC /* Airline.swift */; };
+		A3F8E25B1B6286BC0028FFAC /* Aircraft.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F8E25A1B6286BC0028FFAC /* Aircraft.swift */; };
+		A3F8E2631B6288C50028FFAC /* Flight.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F8E2621B6288C50028FFAC /* Flight.swift */; };
+		A3F8E2671B6659BC0028FFAC /* AirlineError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F8E2661B6659BC0028FFAC /* AirlineError.swift */; };
+		A3F8E2691B665DCF0028FFAC /* Definitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F8E2681B665DCF0028FFAC /* Definitions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A3F8E24C1B62856E0028FFAC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A3F8E24E1B62856E0028FFAC /* Airline */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Airline; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3F8E2511B62856E0028FFAC /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = main.swift; path = Airline/main.swift; sourceTree = "<group>"; };
+		A3F8E2581B62857B0028FFAC /* Airline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Airline.swift; sourceTree = "<group>"; };
+		A3F8E25A1B6286BC0028FFAC /* Aircraft.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Aircraft.swift; sourceTree = "<group>"; };
+		A3F8E2621B6288C50028FFAC /* Flight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Flight.swift; sourceTree = "<group>"; };
+		A3F8E2661B6659BC0028FFAC /* AirlineError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AirlineError.swift; sourceTree = "<group>"; };
+		A3F8E2681B665DCF0028FFAC /* Definitions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Definitions.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3F8E24B1B62856E0028FFAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A3F8E2451B62856E0028FFAC = {
+			isa = PBXGroup;
+			children = (
+				A3F8E2511B62856E0028FFAC /* main.swift */,
+				A3F8E2501B62856E0028FFAC /* Airline */,
+				A3F8E24F1B62856E0028FFAC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A3F8E24F1B62856E0028FFAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3F8E24E1B62856E0028FFAC /* Airline */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3F8E2501B62856E0028FFAC /* Airline */ = {
+			isa = PBXGroup;
+			children = (
+				A3F8E2581B62857B0028FFAC /* Airline.swift */,
+				A3F8E25A1B6286BC0028FFAC /* Aircraft.swift */,
+				A3F8E2621B6288C50028FFAC /* Flight.swift */,
+				A3F8E2661B6659BC0028FFAC /* AirlineError.swift */,
+				A3F8E2681B665DCF0028FFAC /* Definitions.swift */,
+			);
+			path = Airline;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A3F8E24D1B62856E0028FFAC /* Airline */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3F8E2551B62856E0028FFAC /* Build configuration list for PBXNativeTarget "Airline" */;
+			buildPhases = (
+				A3F8E24A1B62856E0028FFAC /* Sources */,
+				A3F8E24B1B62856E0028FFAC /* Frameworks */,
+				A3F8E24C1B62856E0028FFAC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Airline;
+			productName = Airline;
+			productReference = A3F8E24E1B62856E0028FFAC /* Airline */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A3F8E2461B62856E0028FFAC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Luca Mezzatesta";
+				TargetAttributes = {
+					A3F8E24D1B62856E0028FFAC = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = A3F8E2491B62856E0028FFAC /* Build configuration list for PBXProject "Airline" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A3F8E2451B62856E0028FFAC;
+			productRefGroup = A3F8E24F1B62856E0028FFAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3F8E24D1B62856E0028FFAC /* Airline */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A3F8E24A1B62856E0028FFAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3F8E2591B62857B0028FFAC /* Airline.swift in Sources */,
+				A3F8E2671B6659BC0028FFAC /* AirlineError.swift in Sources */,
+				A3F8E2521B62856E0028FFAC /* main.swift in Sources */,
+				A3F8E25B1B6286BC0028FFAC /* Aircraft.swift in Sources */,
+				A3F8E2691B665DCF0028FFAC /* Definitions.swift in Sources */,
+				A3F8E2631B6288C50028FFAC /* Flight.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A3F8E2531B62856E0028FFAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A3F8E2541B62856E0028FFAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A3F8E2561B62856E0028FFAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A3F8E2571B62856E0028FFAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A3F8E2491B62856E0028FFAC /* Build configuration list for PBXProject "Airline" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3F8E2531B62856E0028FFAC /* Debug */,
+				A3F8E2541B62856E0028FFAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3F8E2551B62856E0028FFAC /* Build configuration list for PBXNativeTarget "Airline" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3F8E2561B62856E0028FFAC /* Debug */,
+				A3F8E2571B62856E0028FFAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A3F8E2461B62856E0028FFAC /* Project object */;
+}
