@@ -1,6 +1,6 @@
 # Swift2_Homeworks
 Here you can find some exercises made during the Object Oriented Programming course of Politecnico of Turin (Computer Engineering - 2014/15). 
-I modified and adapted the exercises, originally made in Java 8, to be resolved in Swift 2.
+I modified and adapted the exercises, originally made in Java 8, to be solved in Swift 2.
 
 READ "Swift 2 - Homeworks" PDF for further information.
 
